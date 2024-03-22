@@ -1,0 +1,189 @@
+#root {
+  width:100%;
+  
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+.gradient-text {
+  background: linear-gradient(180deg, #E00000 -51.41%, #FFFFFF 203.52%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.myButton {
+  background-color: rgba(255, 72, 72, 1); /* bg-red-600을 변환 */
+  color: #FFFFFF; /* text-white을 변환 */
+  transition: background-color 0.3s ease; /* hover 효과를 위한 transition */
+  margin-left : 45%;
+  margin-top : 5%;
+  /* hover 시의 스타일 */
+  &:hover {
+    background-color: #EF4444; /* hover:bg-red-700을 변환 */
+  }
+}
+.myButton1 {
+  background-color: rgba(255, 72, 72, 1); /* bg-red-600을 변환 */
+  color: #FFFFFF; /* text-white을 변환 */
+  transition: background-color 0.3s ease; /* hover 효과를 위한 transition */
+  /* hover 시의 스타일 */
+  &:hover {
+    background-color: #EF4444; /* hover:bg-red-700을 변환 */
+  }
+}
+.Loginbutton{
+  background-color: rgba(238, 238, 238, 1); /* bg-red-600을 변환 */
+  color: black; /* text-white을 변환 */
+  transition: background-color 0.3s ease; /* hover 효과를 위한 transition */
+  /* hover 시의 스타일 */
+  &:hover {
+    background-color: #EF4444; /* hover:bg-red-700을 변환 */
+  }
+}
+.button-form {
+  display: flex;
+  gap: 30px; /* 원하는 간격 크기로 조정하세요 */
+}
+
+.title {
+  font-size : 6rem;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: 700;
+}
+.Company_introduction{
+  background: linear-gradient(180deg, #E00000 -51.41%, #FFFFFF 203.52%);
+  -webkit-background-clip: text;
+  font-Size:3rem;
+  text-align: center;
+  margin-bottom : 0.5%;
+  -webkit-text-fill-color: transparent;
+}
+.Company_introduction_title{
+  font-size : 5rem;
+  white-space: nowrap;
+  text-align: center;
+  font-weight: 700;
+
+}
+.Company_introduction_description{
+  margin : 5rem;
+  text-align: center;
+  font-size : 1.5rem;
+}
+
+.self_made{
+  display : flex;
+  justify-content: center;
+  
+}
+
+.self_made_description{
+  margin-left: 10%;
+  margin-top : 10%;
+  width : 100%;
+  font-size:1.2rem
+}
+.self_made_div{
+  background-color: #FFD700; /* 배경색 지정 */
+  color: #000000; /* 텍스트 색상 지정 */
+  font-weight: bold; /* 글자 굵기 설정 */
+  padding: 8px 16px; /* 내부 여백 설정 */
+  border: none; /* 테두리 없애기 */
+  border-radius: 10px; /* 테두리 모서리 둥글게 만들기 */
+  margin-left : 10%;
+  margin-top : 10%;
+  width : 100%;
+  font-size:1.5rem
+}
+
+.operating_system{
+  display : flex;
+  justify-content: center;
+
+}
+.operating_system_description{
+  margin-left: 10%;
+  margin-top : 10%;
+  width : 100%;
+  font-size:1.2rem
+  
+}
+.operating_system_div{
+  background-color: rgba(85, 255, 58, 1); /* 배경색 지정 */
+  color: #000000; /* 텍스트 색상 지정 */
+  font-weight: bold; /* 글자 굵기 설정 */
+  padding: 8px 16px; /* 내부 여백 설정 */
+  border: none; /* 테두리 없애기 */
+  border-radius: 10px; /* 테두리 모서리 둥글게 만들기 */
+  margin-left : 10%;
+  margin-top : 10%;
+  width : 100%;
+  text-align:center;
+  font-size:1.5rem
+}
+
+.Designer{
+  display : flex;
+  justify-content: center;
+
+}
+.Designer_description{
+  margin-left: 10%;
+  margin-top : 10%;
+  width : 100%;
+  font-size:1.2rem;
+  
+}
+.Designer_div{
+  background-color:  rgba(58, 231, 255, 1); /* 배경색 지정 */
+  color: #000000; /* 텍스트 색상 지정 */
+  font-weight: bold; /* 글자 굵기 설정 */
+  padding: 8px 16px; /* 내부 여백 설정 */
+  border: none; /* 테두리 없애기 */
+  border-radius: 10px; /* 테두리 모서리 둥글게 만들기 */
+  margin-left : 10%;
+  margin-top : 10%;
+  width : 100%;
+  text-align:center;
+  font-size:1.5rem
+
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
